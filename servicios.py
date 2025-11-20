@@ -56,7 +56,7 @@ def calcular_estadisticas(inventario):
     unidades_totales = sum(p["cantidad"] for p in inventario)
     valor_total = sum(subtotal(p) for p in inventario)
     
-    print("\n📊 Estadísticas del inventario:".center(50, "="))
+    print("\n Estadísticas del inventario:")
     print(f"• Unidades totales: {unidades_totales}")
     print(f"• Valor total: ${valor_total:,.2f}")
     

@@ -18,7 +18,7 @@ menu = {
 
 
 def mostrar_menu():
-    print("\n\033[33m MENU PRINCIPAL \033[0m".center(50, "="))
+    print("\n\033[33m MENU PRINCIPAL \033[0m")
     for i in range(1, len(menu) + 1):
         print(f"{i}. {menu[i]}")
     print("=" * 50)
